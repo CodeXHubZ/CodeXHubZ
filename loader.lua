@@ -1,11 +1,11 @@
-wait(5)
 repeat task.wait() until game:IsLoaded()
-wait(3)
 local gamelist = {
     [3183403065]  = "https://raw.githubusercontent.com/CodeXHubZ/CodeXHubZ/main/ADA.lua",
     [2655311011]  = "https://raw.githubusercontent.com/CodeXHubZ/CodeXHubZ/main/Anime%20Dimensions%20Simulator.lua",
 }
 
+repeat 
+    wait(.3)
 local checkgame = gamelist[game.gameId]
 if gamelist[game.gameId] then 
 print (checkgame)
@@ -13,3 +13,4 @@ print (checkgame)
 else 
 game.Players.LocalPlayer:Kick("Not Game Support")
 end
+until  _G.CodeXUI == true 
