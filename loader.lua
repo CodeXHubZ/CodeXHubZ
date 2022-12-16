@@ -5,7 +5,8 @@ local gamelist = {
 }
 
 repeat 
-    wait(.3)
+    wait(.2)
+   print("XD") 
 local checkgame = gamelist[game.gameId]
 if gamelist[game.gameId] then 
 print (checkgame)
