@@ -1,5 +1,5 @@
 repeat task.wait() until game:IsLoaded()
-task.wait(12)
+task.wait(10)
 local gamelist = {
     [3183403065]  = "https://raw.githubusercontent.com/CodeXHubZ/CodeXHubZ/main/ADA.lua",
     [2655311011]  = "https://raw.githubusercontent.com/CodeXHubZ/CodeXHubZ/main/Anime%20Dimensions%20Simulator.lua",
