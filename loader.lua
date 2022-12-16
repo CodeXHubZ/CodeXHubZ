@@ -10,6 +10,7 @@ if game:GetService("Players").LocalPlayer.PlayerGui:WaitForChild("Loading") then
     _G.MapName = tostring(game:GetService("Players").LocalPlayer.PlayerGui.Loading.Info.Info.Location.Text)
     _G.MapMode = tostring(game:GetService("Players").LocalPlayer.PlayerGui.Loading.Info.Info.Description.Text)
     _G.MapDiff = tostring(game:GetService("Players").LocalPlayer.PlayerGui.Loading.Info.Info.Difficulty.Text)
+    print(_G.MapName, _G.MapMode, _G.MapDiff)
     end 
 end)
 repeat task.wait() until not game:GetService("Players").LocalPlayer.PlayerGui:FindFirstChild("Loading")    
