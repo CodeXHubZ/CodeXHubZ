@@ -5,13 +5,6 @@ local gamelist = {
 }
 
 if game.gameId == 3183403065 then
-spawn(function()    
-if game:GetService("Players").LocalPlayer.PlayerGui:WaitForChild("Loading") then
-    _G.MapName = tostring(game:GetService("Players").LocalPlayer.PlayerGui.Loading.Info.Info.Location.Text)
-    _G.MapMode = tostring(game:GetService("Players").LocalPlayer.PlayerGui.Loading.Info.Info.Description.Text)
-    _G.MapDiff = tostring(game:GetService("Players").LocalPlayer.PlayerGui.Loading.Info.Info.Difficulty.Text)
-    end 
-end)
 repeat task.wait() until not game:GetService("Players").LocalPlayer.PlayerGui:FindFirstChild("Loading")    
 local checkgame = gamelist[game.gameId]
 if gamelist[game.gameId] then 
