@@ -2,6 +2,7 @@ repeat task.wait() until game:IsLoaded()
 local gamelist = {
     [3183403065]  = "https://raw.githubusercontent.com/CodeXHubZ/CodeXHubZ/main/ADA.lua",
     [2655311011]  = "https://raw.githubusercontent.com/CodeXHubZ/CodeXHubZ/main/Anime%20Dimensions%20Simulator.lua",
+    [1390601379]  = "https://raw.githubusercontent.com/CodeXHubZ/CodeXHubZ/main/Combat%20Warriors.lua",
 }
 
 if game.gameId == 3183403065 then
